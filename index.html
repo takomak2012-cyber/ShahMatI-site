@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ШахМатИ — шахматы с искусственным интеллектом</title>
+<style>
+  :root{--cream:#F5EDDC;--paper:#F1E6D2;--brown:#4A2C17;--brown2:#7A5230;--line:#D9C6A5}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--cream);color:var(--brown);
+       font-family:"Segoe UI",Roboto,system-ui,Arial,sans-serif;line-height:1.6}
+  .wrap{max-width:900px;margin:0 auto;padding:0 20px}
+  header{background:var(--brown);color:var(--cream);padding:14px 0}
+  header .wrap{display:flex;align-items:center;gap:12px}
+  .logo{font-size:26px}
+  .name{font-size:20px;font-weight:700}
+  .hero{background:var(--paper);border-bottom:1px solid var(--line);padding:56px 0;text-align:center}
+  .hero h1{font-size:34px;margin:0 0 12px}
+  .hero p{font-size:18px;margin:0 auto 26px;max-width:620px}
+  .btn{display:inline-block;background:var(--brown);color:var(--cream);
+       padding:13px 26px;border-radius:10px;text-decoration:none;font-weight:700;font-size:16px}
+  .btn:hover{background:var(--brown2)}
+  h2{font-size:24px;margin:44px 0 18px;border-bottom:2px solid var(--line);padding-bottom:8px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:16px}
+  .card h3{margin:0 0 6px;font-size:17px}
+  .card p{margin:0;font-size:15px;color:var(--brown2)}
+  footer{background:var(--brown);color:var(--cream);padding:24px 0;margin-top:48px;font-size:14px}
+  footer a{color:var(--cream)}
+  .muted{color:var(--brown2)}
+</style>
+</head>
+<body>
+<header><div class="wrap"><span class="logo">&#9822;</span><span class="name">ШахМатИ</span></div></header>
+
+<section class="hero"><div class="wrap">
+  <h1>Шахматы с искусственным интеллектом</h1>
+  <p>Играйте против компьютера на четырёх уровнях сложности, изучайте правила и
+     получайте подсказки. Учитесь и получайте удовольствие!</p>
+  <a class="btn" href="https://www.rustore.ru/catalog/app/com.shahmat.game">Скачать в RuStore</a>
+</div></section>
+
+<div class="wrap">
+  <h2>Возможности</h2>
+  <div class="grid">
+    <div class="card"><h3>4 уровня сложности</h3><p>От обучения новичков до сложной игры для мастеров.</p></div>
+    <div class="card"><h3>Обучение</h3><p>Разбор правил и базовых схем для начинающих.</p></div>
+    <div class="card"><h3>Подсказки</h3><p>Подсказка за просмотр рекламы, максимум три за партию.</p></div>
+    <div class="card"><h3>Игра вдвоём</h3><p>Режим для двух игроков на одном устройстве.</p></div>
+  </div>
+
+  <h2>Об игре</h2>
+  <p>ШахМатИ — бесплатная шахматная игра для Android. Поддерживается голосовое управление
+     ходами, подсказки доступны на всех уровнях.</p>
+
+  <h2>Реклама</h2>
+  <p>Приложение использует рекламную сеть <b>Яндекс РСЯ</b>.
+     Авторизованные продавцы указаны в файле
+     <a href="/app-ads.txt">app-ads.txt</a>.</p>
+</div>
+
+<footer><div class="wrap">
+  <div>ШахМатИ &middot; пакет <code>com.shahmat.game</code></div>
+  <div class="muted">Сайт: takomak2012-cyber.github.io</div>
+</div></footer>
+</body>
+</html>
