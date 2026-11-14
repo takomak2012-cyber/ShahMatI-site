@@ -14,6 +14,10 @@
   header .wrap{display:flex;align-items:center;gap:12px}
   .logo{font-size:26px}
   .name{font-size:20px;font-weight:700}
+  .site-btn{margin-left:auto;background:var(--cream);color:var(--brown);
+            padding:8px 16px;border-radius:8px;text-decoration:none;font-weight:700;
+            font-size:14px;white-space:nowrap}
+  .site-btn:hover{background:#fff}
   .hero{background:var(--paper);border-bottom:1px solid var(--line);padding:56px 0;text-align:center}
   .hero h1{font-size:34px;margin:0 0 12px}
   .hero p{font-size:18px;margin:0 auto 26px;max-width:620px}
@@ -35,7 +39,7 @@
 </style>
 </head>
 <body>
-<header><div class="wrap"><span class="logo">&#9822;</span><span class="name">ШахМатИя</span></div></header>
+<header><div class="wrap"><span class="logo">&#9822;</span><span class="name">ШахМатИя</span><a class="site-btn" href="https://takomak2012-cyber.github.io">Все приложения &#8594;</a></div></header>
 
 <section class="hero"><div class="wrap">
   <h1>Шахматы с искусственным интеллектом</h1>
@@ -63,6 +67,7 @@
   <p>ШахМатИя — бесплатная шахматная игра для Android. Поддерживается голосовое управление
      ходами, подсказки доступны на всех уровнях. Интерфейс подстраивается под экран любого
      размера и пропорций — от компактных 720×1280 до вытянутых 20:9.</p>
+  <p><a class="btn btn-alt" href="https://takomak2012-cyber.github.io">Другие приложения автора</a></p>
 
   <h2>Реклама</h2>
   <p>Приложение использует рекламную сеть <b>Яндекс РСЯ</b>.
@@ -73,7 +78,7 @@
 <footer><div class="wrap">
   <div>ШахМатИя &middot; пакет <code>com.shahmat.game</code></div>
   <div>Автор: Вячеслав Долар</div>
-  <div class="muted">Сайт: takomak2012-cyber.github.io</div>
+  <div class="muted">Сайт: <a href="https://takomak2012-cyber.github.io">takomak2012-cyber.github.io</a></div>
 </div></footer>
 </body>
 </html>
